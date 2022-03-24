@@ -1,0 +1,19 @@
+name: cirq
+channels: 
+  - conda-forge
+dependencies: 
+  - ipython
+  - ipywidgets
+  - jupyter
+  - jupyterlab
+  - matplotlib
+  - mypy
+  - numpy
+  - pandas
+  - pip 
+  - pylint
+  - scipy
+  - tqdm
+  - pip:
+    - black
+    - cirq
